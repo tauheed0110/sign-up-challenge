@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="main">
+            <form method="post" id="myForm">
+                <div class="form-item">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter email">
+                    <p class="logError" id="logEmailError"></p>
+                </div>
+                <div class="form-item">
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" placeholder="Enter Password">
+                    <p class="logError" id="logPasswordError"></p>
+                </div>
+                <p id="logSuccess"></p>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
